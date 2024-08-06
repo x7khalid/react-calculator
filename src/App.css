@@ -1,27 +1,16 @@
-* {
-  font-family: sans-serif;
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
 }
 
-input,
-button {
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 5px;
+.output-re {
+  font-size: 4rem;
 }
 
-input {
-  display: block;
-  margin-bottom: 20px;
-}
-
-button {
-  border: 1px solid gray;
-  background: whitesmoke;
-  margin-right: 5px;
-}
-
-button:nth-last-child(2),
-button:nth-last-child(1) {
-  background: tomato;
-  color: white;
+@media (width >=800px) {
+  .input-group {
+    max-width: 60%;
+  }
 }
